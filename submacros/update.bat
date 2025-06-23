@@ -73,7 +73,7 @@ echo:
         echo:
     )
     :: update autostart
-    for /f "usebackq tokens=2,* skip=2" %%l in (`reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "NatroMacro" 2^>nul`) do set "cmdline=%%m"
+    for /f "usebackq tokens=2,* skip=2" %%l in (`reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SGMacro" 2^>nul`) do set "cmdline=%%m"
     if not [!cmdline!] == [] (
         call set strtest=%%cmdline:%~2=%%
         if not "!strtest!"=="!cmdline!" (
