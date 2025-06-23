@@ -1,10 +1,11 @@
 <!--
-  /\ \ \__ _| |_ _ __ ___     /\/\   __ _  ___ _ __ ___  
- /  \/ / _` | __| '__/ _ \   /    \ / _` |/ __| '__/ _ \ 
-/ /\  / (_| | |_| | | (_) | / /\/\ \ (_| | (__| | | (_) |
-\_\ \/ \__,_|\__|_|  \___/  \/    \/\__,_|\___|_|  \___/                                                    
-
-Thanks for downloading Natro Macro!
+  _________ ________                                    
+ /   _____//  _____/  _____ _____    ___________  ____  
+ \_____  \/   \  ___ /     \\__  \ _/ ___\_  __ \/  _ \ 
+ /        \    \_\  \  Y Y  \/ __ \\  \___|  | \(  <_> )
+/_______  /\______  /__|_|  (____  /\___  >__|   \____/ 
+        \/        \/      \/     \/     \/                                                                
+Thanks for downloading SG Macro!
 
 To start the macro, just open 'START.bat'!
 
@@ -15,15 +16,15 @@ Feel free to give us a Star on GitHub!
 IMPORTANT:
 Make sure you are only downloading from an official source!
 The only official sources are:
- - our GitHub page (https://github.com/NatroTeam/NatroMacro)
- - our Discord server (https://discord.gg/natromacro)
+ - our GitHub page (https://github.com/SGmetro/SGteam)
+ - our Discord server (https://discord.gg/xXxpUafFXD)
 
 >>> IGNORE BELOW THIS LINE <<<
 -->
 
 <!-- no offical site warning -->
 > [!CAUTION]
-> We do **not** have a website. The only offical place to download Natro Macro is this repoistry and [discord.gg/natromacro][discord-link].
+> We do **not** have a website. The only offical place to download Natro Macro is this repoistry and [discord.gg/xXxpUafFXD][discord-link].
 
 <div align="center">
 
@@ -48,40 +49,8 @@ This is where you can connect with the community, access guides and help channel
 Discord is our main platform for troubleshooting and update news!
 
 
-
-<a name="contributing"><h2>⌨️ Contributing</h2></a>
-
-Natro Macro is an open-source project. We greatly appreciate all contributions, whether you are helping us fix bugs or suggesting new features. If you want to get started, read our [Contributing Guidelines][contributing-link] first.
-
-- **Bugs**: If you find an issue or run into an error message while using the macro, please create a [bug report][bug-report-link].
-- **Suggestions**: If you have an idea for a feature that you'd like to see in the macro, please submit a [suggestion][suggestion-link].
-
-For discussions, please join us on [Discord][discord-link] instead!
-
-
-<a name="credits"><h2>💝 Credits</h2></a>
-
-SG Macro wouldn't be possible without the help and inspiration of many extraordinary individuals.<br>
-We want to show our gratitude to all of you, so please check out our [list of credits][credits-link]!
-
-Thank you all for your hard work and support!
-
-
-<a name="stars"><h2>🌠 Stars</h2></a>
-
-If Natro Macro helped you, let us know by giving it a ⭐ $\color{yellow}{\textsf{Star}}$ on GitHub!<br>
-You can do this by scrolling up and clicking the Star button at the top of the page!
-
-<a href="https://github.com/SGmetro/SGteam/tree/mainstargazers">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="http://reporoster.com/stars/NatroTeam/NatroMacro"> <!-- light theme -->
-    <img alt="stargazer-widget" src="http://reporoster.com/stars/dark/NatroTeam/NatroMacro"> <!-- dark theme -->
-  </picture>
-</a>
-
-
 <a name="license"><details><summary><h4>📝 License</h4></summary></a>
-Copyright © 2022-2024 [Natro Team][github-profile-link]<br>
+Copyright © 2025 [SGTeam][github-profile-link]<br>
 This project is licensed under [GNU GPL v3.0](./LICENSE.md)
 
 </details>
@@ -94,13 +63,12 @@ This project is licensed under [GNU GPL v3.0](./LICENSE.md)
 [roblox-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgroups.roblox.com%2Fv1%2Fgroups%2F16490149&query=%24.memberCount&suffix=%20members&logo=roblox&logoColor=white&label=roblox&labelColor=black&color=dc3544
 [roblox-link]: https://www.roblox.com/groups/16490149/Natro-Macro
 [discord-shield]: https://img.shields.io/discord/1012610056921038868?logo=discord&logoColor=white&label=discord&labelColor=black&color=5865f2
-[discord-link]: https://discord.gg/natromacro
+[discord-link]: https://discord.gg/xXxpUafFXD
 [contributing-link]: https://github.com/SGmetro/SGteam/tree/main/.github/blob/main/CONTRIBUTING.md
 [credits-link]: https://github.com/SGmetro/SGteam/tree/main/.github/blob/main/CREDITS.md
 [bug-report-link]: https://github.com/SGmetro/SGteam/tree/mainissues/new?assignees=&labels=bug%2Cneeds+triage&projects=&template=bug.yml
 [suggestion-link]: https://github.com/SGmetro/SGteam/tree/mainissues/new?assignees=&labels=suggestion%2Cneeds+triage&projects=&template=suggestion.yml
-[github-profile-link]: http://github.com/NatroTeam
-[discord-banner-link]: https://invidget.switchblade.xyz/natromacro
+[github-profile-link]: http://github.com/SGmetro
 "# SGteam" 
 "# SGteam" 
 "# SGteam" 
