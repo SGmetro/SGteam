@@ -1,6 +1,6 @@
 ﻿/*
-Natro Macro (https://github.com/NatroTeam/NatroMacro)
-Copyright © Natro Team (https://github.com/NatroTeam)
+Natro Macro (https://github.com/SGmetro/SGteam)
+Copyright © Natro Team (https://github.com/SGmetro)
 
 This file is part of Natro Macro. Our source code will always be open and available.
 
@@ -1538,10 +1538,10 @@ SendHourlyReport()
 
 		pos := Gdip_TextToGraphics(G, "Natro v" natro_version, "s56 Left Bold c00ffffff x" x " y" y, "Segoe UI")
 		x -= SubStr(pos, InStr(pos, "|", , , 2)+1, InStr(pos, "|", , , 3)-InStr(pos, "|", , , 2)-1)/2
-		pos := Gdip_TextToGraphics(G, "discord.gg/natromacro", "s56 Left Bold c00ffffff x" x " y" y, "Segoe UI")
+		pos := Gdip_TextToGraphics(G, "discord.gg/xXxpUafFXD", "s56 Left Bold c00ffffff x" x " y" y, "Segoe UI")
 		x -= SubStr(pos, InStr(pos, "|", , , 2)+1, InStr(pos, "|", , , 3)-InStr(pos, "|", , , 2)-1)/2
 
-		pos := Gdip_TextToGraphics(G, "discord.gg/natromacro", "s56 Left Bold Underline cff3366cc x" x " y" y, "Segoe UI")
+		pos := Gdip_TextToGraphics(G, "discord.gg/xXxpUafFXD", "s56 Left Bold Underline cff3366cc x" x " y" y, "Segoe UI")
 		x := SubStr(pos, 1, InStr(pos, "|", , , 1)-1)+SubStr(pos, InStr(pos, "|", , , 2)+1, InStr(pos, "|", , , 3)-InStr(pos, "|", , , 2)-1)
 		Gdip_DrawImage(G, bitmaps["pBMNatroLogo"], x+10, y, 80, 80)
 		Gdip_TextToGraphics(G, "Natro v" natro_version, "s56 Left Bold cffb47bd1 x" x+100 " y" y, "Segoe UI")

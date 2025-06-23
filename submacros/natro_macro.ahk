@@ -1,6 +1,6 @@
 ﻿/*
-SG Macro (https://github.com/NatroTeam/NatroMacro)
-Copyright © SG Team (https://github.com/NatroTeam)
+SG Macro (https://github.com/SGmetro/SGteam)
+Copyright © SG Team (https://github.com/SGmetro)
 
 This file is part of SG Macro. Our source code will always be open and available.
 
@@ -2214,7 +2214,7 @@ nm_UpdateButton(*)
 		try
 		{
 			wr := ComObject("WinHttp.WinHttpRequest.5.1")
-			wr.Open("GET", "https://api.github.com/repos/NatroTeam/NatroMacro/tags?per_page=100", 1)
+			wr.Open("GET", "https://api.github.com/repos/SGmacro/SGteam/tags?per_page=100", 1)
 			wr.SetRequestHeader("accept", "application/vnd.github+json")
 			wr.Send()
 			wr.WaitForResponse()
@@ -2225,7 +2225,7 @@ nm_UpdateButton(*)
 				throw
 
 			wr := ComObject("WinHttp.WinHttpRequest.5.1")
-			wr.Open("GET", "https://api.github.com/repos/NatroTeam/NatroMacro/compare/" base "..." latest_release["tag_name"] , 1)
+			wr.Open("GET", "https://api.github.com/repos/SGmetro/SGteam/compare/" base "..." latest_release["tag_name"] , 1)
 			wr.SetRequestHeader("accept", "application/vnd.github+json")
 			wr.Send()
 			wr.WaitForResponse()
@@ -2297,7 +2297,7 @@ TabArr := ["Gather","Collect/Kill","Boost","Quests","Planters","Status","Setting
 (TabCtrl := MainGui.Add("Tab", "x0 y-1 w500 h240 -Wrap", TabArr)).OnEvent("Change", (*) => TabCtrl.Focus())
 SendMessage 0x1331, 0, 20, , TabCtrl ; set minimum tab width
 ; check for update
-try AsyncHttpRequest("GET", "https://api.github.com/repos/NatroTeam/NatroMacro/releases/latest", nm_AutoUpdateHandler, Map("accept", "application/vnd.github+json"))
+try AsyncHttpRequest("GET", "https://api.github.com/repos/SGmetro/SGteam/releases/latest", nm_AutoUpdateHandler, Map("accept", "application/vnd.github+json"))
 ; open Timers
 if (TimersOpen = 1)
 	run '"' exe_path32 '" /script "' A_WorkingDir '\submacros\PlanterTimers.ahk"'
@@ -2479,7 +2479,7 @@ MainGui.Add("Text", "x264 y43 w180 +wrap +backgroundtrans cWhite", "Thank you fo
 MainGui.Add("Button", "x440 y46 w18 h18 vContributorsLeft Disabled", "<").OnEvent("Click", nm_ContributorsPageButton)
 MainGui.Add("Button", "x464 y46 w18 h18 vContributorsRight Disabled", ">").OnEvent("Click", nm_ContributorsPageButton)
 
-try AsyncHttpRequest("GET", "https://raw.githubusercontent.com/NatroTeam/.github/main/data/contributors.", nm_ContributorsHandler, Map("accept", "application/vnd.github.v3.raw"))
+try AsyncHttpRequest("GET", "https://raw.githubusercontent.com/SGmetro/.github/main/data/contributors.", nm_ContributorsHandler, Map("accept", "application/vnd.github.v3.raw"))
 SetLoadingProgress(27)
 
 ; MISC TAB
@@ -2722,7 +2722,7 @@ MainGui.Add("Picture", "+BackgroundTrans x247 yp-3 w20 h20 vBeesmasImage")
 (GuiCtrl := MainGui.Add("CheckBox", "xp+130 ys+6 vSamovarCheck Disabled", "Samovar")).Section := "Collect", GuiCtrl.OnEvent("Click", nm_saveConfig)
 (GuiCtrl := MainGui.Add("CheckBox", "xp yp+18 vLidArtCheck Disabled", "Lid Art")).Section := "Collect", GuiCtrl.OnEvent("Click", nm_saveConfig)
 (GuiCtrl := MainGui.Add("CheckBox", "xp yp+18 vGummyBeaconCheck Disabled", "Gummy Beacon")).Section := "Collect", GuiCtrl.OnEvent("Click", nm_saveConfig)
-try AsyncHttpRequest("GET", "https://raw.githubusercontent.com/NatroTeam/.github/main/data/beesmas.txt", nm_BeesmasHandler, Map("accept", "application/vnd.github.v3.raw"))
+try AsyncHttpRequest("GET", "https://raw.githubusercontent.com/SGmetro/.github/main/data/beesmas.txt", nm_BeesmasHandler, Map("accept", "application/vnd.github.v3.raw"))
 ;Blender
 MainGui.SetFont("w700")
 MainGui.Add("GroupBox", "x305 y42 w190 h105 vBlenderGroupBox", "Blender")
@@ -4065,7 +4065,7 @@ DiscordLink(*){
 	nm_RunDiscord("invite/xXxpUafFXD")
 }
 GitHubRepoLink(*){
-	Run "https://github.com/NatroTeam/NatroMacro"
+	Run "https://github.com/SGmetro/SGteam"
 }
 GitHubReleaseLink(*){
 	Run "https://github.com/SGmetro/SGteam/tree/mainreleases"
@@ -8330,7 +8330,7 @@ AddButton(*)
 		. ((autostart = 1) ?  ' "1"' : ' ""')		; autostart parameter
 		. ' ""'										; existing heartbeat PID
 		. ((secs > 0) ?  ' "' secs '"' : ' ""')		; delay before run (.bat)
-		, "REG_SZ", "HKCU\Software\Microsoft\Windows\CurrentVersion\Run", "NatroMacro"
+		, "REG_SZ", "HKCU\Software\Microsoft\Windows\CurrentVersion\Run", "SGteam"
 
 	ASMGui["Delay"].Text := "Delay Duration: " ((secs > 0) ? hmsFromSeconds(secs) : "None")
 	ASMGui["StatusVal"].SetFont("cGreen", "Tahoma"), ASMGui["StatusVal"].Text := "Active"
@@ -8345,7 +8345,7 @@ RemoveButton(*)
 {
 	global
 
-	try RegDelete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run", "NatroMacro"
+	try RegDelete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run", "SGteam"
 	catch
 	{
 		; show msgbox

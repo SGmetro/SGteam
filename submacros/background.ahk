@@ -1,6 +1,6 @@
 ﻿/*
-Natro Macro (https://github.com/NatroTeam/NatroMacro)
-Copyright © Natro Team (https://github.com/NatroTeam)
+Natro Macro (https://github.com/SGmetro/SGteam)
+Copyright © Natro Team (https://github.com/SGmetro)
 
 This file is part of Natro Macro. Our source code will always be open and available.
 
