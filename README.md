@@ -27,18 +27,6 @@ The only official sources are:
 
 <div align="center">
 
-<!-- logo banner -->
-<picture>
-  <source width="200px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NatroTeam/.github/main/profile/assets/banners/natro-logo-light.svg"> <!-- light theme (black text) -->
-  <img src="https://raw.githubusercontent.com/NatroTeam/.github/main/profile/assets/banners/natro-logo-dark.svg"> <!-- dark theme (light text) -->
-</picture>
-<br>
-
-<!-- shields and contents -->
-[![][latest-release-shield]][latest-release-link]
-[![][downloads-shield]][downloads-link]
-[![][discord-shield]][discord-link]
-[![][roblox-shield]][roblox-link]
 <br>
 An open-source Bee Swarm Simulator macro written in AutoHotkey!<br>
 </div>
@@ -46,8 +34,8 @@ An open-source Bee Swarm Simulator macro written in AutoHotkey!<br>
 
 <a name="installation"><h2>🛠️ Installation</h2></a>
 
-1. Download `Natro_Macro_v#.#.#.zip` from the [latest release][latest-release-link]
-2. Open `Natro_Macro_v#.#.#` and double-click the folder inside
+1. Download `SG_Macro_v#.#.#.zip` from the [latest release][latest-release-link]
+2. Open `SG_Macro_v#.#.#` and double-click the folder inside
 3. Run `START.bat` and wait for the macro to load
 
 
@@ -58,7 +46,6 @@ An open-source Bee Swarm Simulator macro written in AutoHotkey!<br>
 This is where you can connect with the community, access guides and help channels, and download custom patterns, paths, and themes!
 
 Discord is our main platform for troubleshooting and update news!
-
 
 
 
