@@ -4068,7 +4068,7 @@ GitHubRepoLink(*){
 	Run "https://github.com/NatroTeam/NatroMacro"
 }
 GitHubReleaseLink(*){
-	Run "https://github.com/NatroTeam/NatroMacro/releases"
+	Run "https://github.com/SGmetro/SGteam/tree/mainreleases"
 }
 nm_RunDiscord(path){
 	static cmd := Buffer(512), init := (DllCall("shlwapi\AssocQueryString", "Int",0, "Int",1, "Str","discord", "Str","open", "Ptr",cmd.Ptr, "IntP",512),
@@ -8468,10 +8468,10 @@ nm_NightAnnouncementHelp(*){
 	)", "Announce Night Detection", 0x40000
 }
 nm_ReportBugButton(*){
-	Run "https://github.com/NatroTeam/NatroMacro/issues/new?assignees=&labels=bug%2Cneeds+triage&projects=&template=bug.yml"
+	Run "https://github.com/SGmetro/SGteam/tree/mainissues/new?assignees=&labels=bug%2Cneeds+triage&projects=&template=bug.yml"
 }
 nm_MakeSuggestionButton(*){
-	Run "https://github.com/NatroTeam/NatroMacro/issues/new?assignees=&labels=suggestion%2Cneeds+triage&projects=&template=suggestion.yml"
+	Run "https://github.com/SGmetro/SGteam/tree/mainissues/new?assignees=&labels=suggestion%2Cneeds+triage&projects=&template=suggestion.yml"
 }
 blc_mutations(*) {
 	global
